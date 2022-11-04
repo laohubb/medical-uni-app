@@ -7,8 +7,43 @@
 				"enablePullDownRefresh": false
 			}
 
+		},{
+			"path": "pages/assistant/assistant",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	],
+
+        ,{
+            "path" : "pages/anylyce/anylyce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/helper/helper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -24,20 +59,21 @@
 			"text": "工作",
 			"iconPath": "static/c1.png",
 			"selectedIconPath": "static/c1.png"
-		},{
-			"pagePath": "pages/home/home",
-			"text": "助手",
-			"iconPath": "static/c2.png",
-			"selectedIconPath": "static/c1.png"
 		},
 		{
-			"pagePath": "pages/home/home",
+			"pagePath": "pages/anylyce/anylyce",
 			"text": "分析",
 			"iconPath": "static/c3.png",
 			"selectedIconPath": "static/c1.png"
 		},
 		{
-			"pagePath": "pages/home/home",
+			"pagePath": "pages/me/me",
+			"text": "我",
+			"iconPath": "static/c4.png",
+			"selectedIconPath": "static/c1.png"
+		},
+		{
+			"pagePath": "pages/helper/helper",
 			"text": "我",
 			"iconPath": "static/c4.png",
 			"selectedIconPath": "static/c1.png"
