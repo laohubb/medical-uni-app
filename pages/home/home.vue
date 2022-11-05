@@ -77,15 +77,18 @@
 			</view>
 
 		</view>
-		<functionB v-bind:visible.sync="show"></functionB>
+		<FunctionB v-bind:visible.sync="show"></FunctionB>
+	
 	</view>
 </template>
 
 <script>
-	import functionB from "@/components/functionB.vue"
+
+	import FunctionB from "@/components/FunctionB.vue"
+	// import TabBar from "@/components/TabBar.vue"
 	export default {
 		components: {
-			functionB
+			FunctionB
 		},
 		data() {
 			return {

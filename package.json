@@ -3,5 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "laohu <laohubbb@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+  }
 }
