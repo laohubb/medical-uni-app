@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import 'animate.css';
+import '@/static/font.css'
 Vue.config.productionTip = false
 
 App.mpType = 'app'

@@ -2,24 +2,7 @@
   font-family: "customicons"; /* Project id 2878519 */
   src:url('/static/customicons.ttf') format('truetype');
 }
-/* 自定义tab */
-.uni-tabbar-bottom{
-	.uni-tabbar{
-		background-color: white !important;
-	}
-	.uni-tabbar__label{
-		// color: greenyellow !important;
-	}
-	
-	.uni-tabbar__mid{
-		background-color: white;
-		border-radius: 60rpx;
-		border-top: 1rpx solid #ababab;
-		width: 120rpx !important; 
-		height: 120rpx !important;
-		margin-bottom: 10rpx;
-	}
-}
+
 .customicons {
   font-family: "customicons" !important;
 }

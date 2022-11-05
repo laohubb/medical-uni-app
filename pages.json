@@ -52,44 +52,6 @@
 		"app-plus": {
 			"background": "#efeff4"
 		}
-	},
-	"tabBar": {
-		"selectedColor":"#94be3a",
-		"list": [{
-			"pagePath": "pages/home/home",
-			"text": "工作",
-			"iconPath": "static/tabbar-icon/paper.png",
-			"selectedIconPath": "static/tabbar-icon/paperHL.png"
-			
-		},
-		{
-			"pagePath": "pages/helper/helper",
-			"text": "助手",
-			"iconPath": "static/tabbar-icon/helper.png",
-		"selectedIconPath": "static/tabbar-icon/helperHL.png"
-			
-		},
-		{
-			"pagePath": "pages/anylyce/anylyce",
-			"text": "分析",
-			"iconPath": "static/tabbar-icon/anylyce.png",
-			"selectedIconPath": "static/tabbar-icon/anylyceHL.png"
-			
-		},
-		{
-			"pagePath": "pages/me/me",
-			"text": "我",
-			"iconPath": "static/tabbar-icon/me.png",
-			"selectedIconPath": "static/tabbar-icon/meHL.png"
-			
-			
-		}],
-	"midButton": {
-		"iconWidth": "120rpx",
-		"height": "140rpx",
-		"iconPath": "static/tabbar-icon/plus.png"
-		
-	}
 	}
 
 }

@@ -10,6 +10,10 @@
 		onHide: function() {
 			console.log('App Hide')
 		}
+		,
+		options:{
+			styleIsolation: 'shared'
+		}
 	}
 </script>
 
@@ -29,4 +33,7 @@
 		color: #333;
 		padding: 10px;
 	}
+
+		
+
 </style>
