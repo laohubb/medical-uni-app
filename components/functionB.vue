@@ -38,6 +38,9 @@
 
 <style lang="scss">
 	.box {
+	
+	 animation-duration: 0.5s; 
+
 		position: fixed;
 		top: 50rpx;
 		height: 100%;

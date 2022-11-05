@@ -5,5 +5,6 @@
   "author": "laohu <laohubbb@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "animate.css": "^4.1.1"
   }
 }

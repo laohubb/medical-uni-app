@@ -77,8 +77,11 @@
 			</view>
 
 		</view>
+	<transition enter-active-class="animate__animated  animate__zoomIn"
+    leave-active-class="animate__animated  animate__zoomIn">
 		<FunctionB v-bind:visible.sync="show"></FunctionB>
-	
+		
+		</transition>
 	</view>
 </template>
 
@@ -262,4 +265,7 @@
 
 		}
 	}
+
+
+
 </style>
