@@ -1,5 +1,6 @@
 <template>
-	<view class="box">
+	<view class="box" v-if="visible">
+		<view class="overlay" @click="close"></view>
 		<view class="modal">
 			<view class="top">功能B</view>
 			<view class="func-area">
@@ -18,10 +19,19 @@
 <script>
 	export default {
 		name: "functionB",
+		props:['visible'],
 		data() {
 			return {
 				list:['功能1','功能2','功能3','功能4','功能5','功能6','功能7','功能8','功能9']
 			};
+		},
+		methods:{
+			close(){
+				this.$emit('update:visible',false)
+			}
+		},
+		mounted(){
+			console.log(this.visible);
 		}
 	}
 </script>
@@ -36,8 +46,16 @@
 		justify-content: center;
 		align-items: center;
 	}
-
+	.overlay{
+		position: fixed;
+		top: 0;
+		background-color: transparent;
+		height: 100%;
+		width: 100%;
+		z-index: 10;
+	}
 	.modal {
+		z-index: 11;
 		overflow: hidden;
 		border-radius: 15rpx;
 		width: 95%;
